@@ -1,0 +1,18 @@
+what is jar file?
+*archived file---collection of file.
+*jar==java archived file.
+1.craetion of jar file
+2.bulding the jar file 
+3.share the jar file or execute the jar file.
+how to run a jar file in comandpromt;
+=open cmd
+=go to directory
+               e:
+=cd file path
+             E:\sellenium automation\Jar_Files
+=enter the comand
+             java -jar name of thr jar.
+=output got displayed.
+how to add ecternal jars?
+click to project and properties--> java built path-> add external jars 
+and apply and close.
