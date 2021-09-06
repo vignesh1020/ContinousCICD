@@ -1,0 +1,66 @@
+FILE HANDLING:
+=test data should not be hardcoded within the program since data change dynamically.
+ Ways to manage the data:
+get the data at the runtime by using the scanner calss.
+1=no need to store the data in the machine as we 
+going to to send the data in run time.
+=also the data will be secured. 
+2.runnning the data from the command promt at 
+runtime as an argument in command line.
+3.automation scripting should be done in such as way whare we can fetch the data
+from the database using the query at the runtime.
+4. java can generate the random data using some methods whare we can
+pass the data into the application during execution.
+5.most popular= storing the data by saving them in external files format.
+fg: .xls,.xlsx,note,.pdf,.csv,etc.  
+
+ file handling-raed and write data using files:
+1. text file , properties file, excel file , csv,
+ pdf, xml, logfile, html file
+SAMPLE TEST CASE TO LOGIN:
+ TO Verify and validate the login=
+
+open(properties file)-
+navigate(properties file)-
+type(excelfile,properties file)             id=001 is the adress of the web object
+type(excelfile,properties file)            id=002 is the adress of the web object
+click(login,properties file)
+verify(log file)
+readdata(text file)
+store ()
+generatereport(html file).
+# all the test data usedn in application can be managed in the in excel file.
+# all the test data and test cases can be managed in the excel file
+# creation of excel file , 
+# read the data from the excel file, 
+# write the data from the excel file, through the java progarm
+
+In realtime adress are managed using the properties file used to store the
+(brouser name ,url).
+file extension:
+
+text file=          .txt
+properties file=    .properties
+excel=              .xls/.xlsx=after ms 2007
+log file=           .log              (history of activites in application is tracked using the logfile)
+comma seperator file=.csv             (used in banking field as it raw file, visible in the format of excel)
+pdf file=           .pdf              (only read options )
+xml file=           .xml              (textdata can be stored using in tags, nowdays API'S rae using xml file)
+word file=          .docx
+html file=          .html             (test cases report status is in the format of html file )
+
+#file handling in java is done using (stream)
+1. To connect to the file stream is being used. 
+2. Raed and write operation.
+
+#create a file using java inbuild method:
+// creation of file
+		//File f=new File("E:\\sellenium automation\\Creation file\\vicky.docx" ); 
+		//f.createNewFile();
+		//File v=new File("E:\\sellenium automation\\Creation file\\sample.txt" );  
+         //v.createNewFile();
+         //File u=new File("E:\\sellenium automation\\Creation file\\yoga.csv" );  
+         //u.createNewFile();
+# write a file using the inbuild method using bufferwriter:
+# file writer and bufferwriter are used to write the file .
+
